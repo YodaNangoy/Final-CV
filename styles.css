@@ -247,7 +247,9 @@ body {
 .uls{
   display: flex;
 }
-
+textarea{
+  width: 100%;
+}
 @media screen and (max-width: 500px){
   body{
       overflow-x:hidden;
