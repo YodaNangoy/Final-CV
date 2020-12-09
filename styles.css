@@ -247,3 +247,46 @@ body {
 .uls{
   display: flex;
 }
+
+@media screen and (max-width: 500px){
+  body{
+      overflow-x:hidden;
+  }  
+
+.resume .resume_right .resume_hobby{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+
+.resume, 
+.resume_right .resume_hobby ul{
+  flex-direction: column;
+} 
+
+.resume,
+.resume .resume_right .resume_hobby ul li:nth-of-type(even){
+  margin: 48px 0;
+}
+
+.resume .resume_right .resume_hobbyul ul li:before{
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 12px;
+  transform:rotate(90deg);
+}
+
+.resume .resume_left,
+.resume .resume_right{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+}
