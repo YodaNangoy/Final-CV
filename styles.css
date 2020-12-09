@@ -250,6 +250,10 @@ body {
 textarea{
   width: 100%;
 }
+
+input{
+  width: 100%;
+}
 @media screen and (max-width: 500px){
   body{
       overflow-x:hidden;
